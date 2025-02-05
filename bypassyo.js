@@ -13,14 +13,12 @@ var monitor = setInterval(function() {
                 document.getElementById("plan2").style.display = "block";
 
                 Level = Level + 1;
-                document.activeElement.blur();
                 tit();
                 fix = 0;
             } else if (Level == 1 && fix == 1) {
                 Level = Level + 1;
                 document.getElementById("plan2").style.display = "none";
                 document.getElementById("plan3").style.display = "block";
-                document.activeElement.blur();
                 tit();
                 fix = 0;
             } else if (Level == 2 && fix == 1)
@@ -29,7 +27,6 @@ var monitor = setInterval(function() {
                 Level = Level + 1;
                 document.getElementById("plan3").style.display = "none";
                 document.getElementById("plan4").style.display = "block";
-                document.activeElement.blur();
                 tit();
                 fix = 0;
             } else if (Level == 3 && fix == 1)
@@ -38,7 +35,6 @@ var monitor = setInterval(function() {
                 Level = Level + 1;
                 document.getElementById("plan4").style.display = "none";
                 document.getElementById("plan5").style.display = "block";
-                document.activeElement.blur();
                 tit();
                 fix = 0;
             } else if (Level == 4 && fix == 1)
@@ -47,7 +43,6 @@ var monitor = setInterval(function() {
                 Level = Level + 1;
                 document.getElementById("plan5").style.display = "none";
                 document.getElementById("plan6").style.display = "block";
-                document.activeElement.blur();
                 tit();
                 fix = 0;
             } else
