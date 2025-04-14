@@ -99,11 +99,6 @@ jQuery(function ($) {
 
 window.googletag = window.googletag || { cmd: [] };
 
-googletag.cmd.push(function () {
-  googletag.pubads().addEventListener("impressionViewable", (event) => {
-       AddImps();
-  });
-});
 
 function AddImps(){
   var expireTime = new Date(new Date().getTime() + 10 * 60 * 1000); // 10 mins
